@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 5vw 10vw 0vw 2vw;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75vw;
+  height: auto;
+}
+
+
+ .main > h1{
+  font-size: 7vw;
+  text-align: center;
+  margin-top: 10vw;
+  max-width: fit-content;
+}
+
+footer {
+  font-size: 5vw;
+  text-align: center;
+  color: midnightblue;
+  margin-top: 0vw;
+}
+
+.contant {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vw;
+  gap: 15vw;
+}
+
+.right-card{
+  background-color: aqua;
+  
+}
+
+.left-card{
+  background-color: red;
+}
+
+.tile-image{
+  flex-wrap: wrap;
+  max-width: 30vw;
+  height: auto;
+  flex: 1 1 auto;
+}
+
+.card-title {
+  color: black;
+  flex-wrap: wrap;
+  font-size: 4vw;
+  height: auto;
+  flex: 1 1 auto;
+  
+}
+
+.main p {
+  color: black;
+  flex-wrap: wrap;
+  font-size: 3vw;
+  max-width: 35vw;
+  max-height: 50vw;
+  height: auto;
+  flex: 1 1 auto;
+
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5vw;
+}
+
+.contact-info p {
+  font-size: 4vw;
+  text-align: center;
+  max-width: fit-content;
+}
